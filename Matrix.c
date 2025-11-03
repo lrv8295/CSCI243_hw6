@@ -73,5 +73,7 @@ Matrix mat_transpose(const Matrix mat) {
 void mat_print(const Matrix mat, FILE *stream) {
 	//printf(mat);
 	//printf(*stream);
+	mat = mat;
+	stream = stream;
 	printf("HI");
 }
