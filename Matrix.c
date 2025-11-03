@@ -70,7 +70,8 @@ Matrix mat_transpose(const Matrix mat) {
 	return mat;
 }
 
-//void mat_print(const Matrix mat, FILE *stream) {
+void mat_print(const Matrix mat, FILE *stream) {
 	//printf(mat);
 	//printf(*stream);
-//}
+	printf("HI");
+}
