@@ -124,12 +124,20 @@ Matrix mat_mult(const Matrix m1, const Matrix m2) {
 	return done;
 }
 
-//Status mat_get_cell(const Matrix mat, float *data, size_t row, size_t col) {
-	//printf(mat);
-	//printf(*data)
-	//printf(col);
-	//return SUCCESS;
-//}
+Status mat_get_cell(const Matrix mat, float *data, size_t row, size_t col) {
+	if(mat == NULL || data == NULL) {
+		return BadRowNumber;
+	}
+	if(row < 1 | row > mat->rows){
+		return BadRowNumber;
+	}
+	if(col < 1 || col > mat->cols) {
+		return BadColNumber;
+	}
+
+	*data = mat->data[row-1][col-1]
+	return Success;
+}
 
 //Status mat_get_row (const Matrix mat, float data[]) {
 	//printf(mat);
