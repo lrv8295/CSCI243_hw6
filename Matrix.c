@@ -47,10 +47,14 @@ void mat_destroy(Matrix mat) {
 	free(mat);
 }
 
-//void mat_init(Matrix mat, const float data[]) {
-	//printf(mat);
-	//printf(data)
-//}
+void mat_init(Matrix mat, const float data[]) {
+	size_t index = 0;
+	for(size_t i = 0; i < mat->rows; i++){
+		for(size_t j = 0; j < mat->cols; j++){
+			mat->data[i][j] = data[index++];
+		}
+	}
+}
 
 Matrix mat_duplicate(const Matrix mat) {
 	return mat;
