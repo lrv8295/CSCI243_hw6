@@ -1,3 +1,9 @@
+commit 40e22fd73e48db6181fbf5d91f86edee2f3be16c
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 23:50:25 2025 -0500
+
+    get rows
+
 commit 9b7c799cf08789ee12f09164e11959725d94655b
 Author: Lucia Rae Vazquez <lrv8295@rit.edu>
 Date:   Sun Nov 2 23:47:55 2025 -0500

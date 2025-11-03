@@ -149,13 +149,16 @@ Status mat_get_row (const Matrix mat, float data[]) {
 	return Success;
 }
 
-//Status mat_set_cell(Matrix mat, float data, size_t row, size_t col) {
-	//printf(mat);
-	//printf(data);
-	//printf(row);
-	//printf(col);
-	//return SUCCESS;
-//}
+Status mat_set_cell(Matrix mat, float data, size_t row, size_t col) {
+	if(mat == NULL){
+		return BadRowNumber;
+	}
+	if(row < 1 || row > mat-> rows) {
+		return BadColNumber;
+	}
+	mat->data[row-1][col-1] = data
+	return Success;
+}
 
 //Status mat_set_row(Matrix mat, const float data[], size_t row) {
 	//printf(mat);
