@@ -1,0 +1,5 @@
+commit bb3eae00ebe6f64592fa54dff79e1d3c63f5ba4d
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 20:58:32 2025 -0500
+
+    inital commit
