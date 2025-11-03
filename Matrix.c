@@ -160,12 +160,18 @@ Status mat_set_cell(Matrix mat, float data, size_t row, size_t col) {
 	return Success;
 }
 
-//Status mat_set_row(Matrix mat, const float data[], size_t row) {
-	//printf(mat);
-	//printf(data);
-	//printf(row);
-	//return SUCCESS;
-//}
+Status mat_set_row(Matrix mat, const float data[], size_t row) {
+	if(mat == NULL || data == NULL) {
+		return BadRowNumber;
+	}
+	if(row < 1 || row < mat->rows) {
+		return BadRowNumber
+	}
+	for(size_t i = 0; i < mat-cols; i++) {
+		mat->data[row-1][i] = data[i];
+	}
+	return Success;
+}
 
 Matrix mat_transpose(const Matrix mat) {
 	return mat;

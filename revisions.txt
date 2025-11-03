@@ -1,3 +1,9 @@
+commit 8515ba76277413773dc3bb9cf8db77f6e44e407e
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 23:53:34 2025 -0500
+
+    set cells
+
 commit 40e22fd73e48db6181fbf5d91f86edee2f3be16c
 Author: Lucia Rae Vazquez <lrv8295@rit.edu>
 Date:   Sun Nov 2 23:50:25 2025 -0500
