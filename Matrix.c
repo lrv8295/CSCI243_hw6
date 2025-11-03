@@ -5,7 +5,7 @@
 #include "Matrix.h"
 
 Matrix mat_create(size_t rows, size_t cols) {
-	Matrix mat = malloc(sizeof(MatrixStruct));
+	Matrix mat = malloc(sizeof(matrix_st));
 	if (mat == NULL) {
 		return NULL;
 	}
