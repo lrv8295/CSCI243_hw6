@@ -12,14 +12,14 @@ Matrix mat_create(size_t rows, size_t cols) {
 	mat->rows = rows;
 	mat->cols = cols;
 
-	mat->data = malloc(rows * sizeof(double *));
+	mat->data = malloc(rows * sizeof(float *));
 	if (mat->data == NULL) {
 		free(mat);
 		return NULL;
 	}
 
 	for (size_t i = 0; i < rows; i++) {
-		mat->data[i] = calloc(cols, sizeof(double));
+		mat->data[i] = calloc(cols, sizeof(float));
 		if (mat->data[i] == NULL) {
 	    		for (size_t j = 0; j < i; j++){
 	        		free(mat->data[j]);
@@ -32,16 +32,20 @@ Matrix mat_create(size_t rows, size_t cols) {
 
 	if (rows == cols) {
 		for (size_t i = 0; i < rows; i++) {
-		    mat->data[i][i] = 1.0;
+		    mat->data[i][i] = 1;
 		}
 	}
 
 	return mat;
-	}
+}
 
-//void mat_destroy(Matrix mat) {
-	//printf(mat);
-//}
+void mat_destroy(Matrix mat) {
+	for (size_t i = 0; i < mat->rows; i++) {
+		free(mat->data[i]);
+	}
+	free(mat->data);
+	free(mat);
+}
 
 //void mat_init(Matrix mat, const float data[]) {
 	//printf(mat);
