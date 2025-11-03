@@ -10,7 +10,7 @@ Matrix mat_create(size_t rows, size_t cols) {
 
 //void mat_destroy(Matrix mat) {
 	//printf(mat);
-/}
+//}
 
 //void mat_init(Matrix mat, const float data[]) {
 	//printf(mat);
