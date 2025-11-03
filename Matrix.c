@@ -94,11 +94,35 @@ void mat_scalar_mult(Matrix mat, float data) {
 	}
 }
 
-//Matrix mat_mult(const Matrix m1, const Matrix m2) {
-	//printf(m1);
-	//printf(m2);
-//	return m1;
-//}
+Matrix mat_mult(const Matrix m1, const Matrix m2) {
+	if(m1 == NULL || m2 == NULL) {
+		return NULL;
+	}
+
+	if(m1->cols != m2->rows) {
+		return NULL;
+	}
+
+	size_t r1 = m1->rows;
+	size_t c1 = m1->cols;
+	size_t c2 = m2->cols;
+
+	Matrix done = mat_create(r1, c2);
+	if (done == NULL) {
+		return NULL;
+	}
+
+	for(size_t i = 0; i < r1; i++) {
+		for(size_t j = 0; j < c2; j++){
+			float sum  = 0;
+			for(size_t k = 0; k < c1; k++) {
+				sum += m1->data[i][k] * m2->data[k][j];
+			}
+		result->data[i][j] = sum;
+		}
+	}
+	return done;
+}
 
 //Status mat_get_cell(const Matrix mat, float *data, size_t row, size_t col) {
 	//printf(mat);
