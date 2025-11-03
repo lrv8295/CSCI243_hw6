@@ -1,3 +1,45 @@
+commit 0564fac6424175b78bfff3dd588e8162755c97bd
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 23:30:38 2025 -0500
+
+    struct
+
+commit 8a3656df5e45a33012540fff77203eaab30c4335
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 23:24:36 2025 -0500
+
+    STRUCT
+
+commit 480bafe6c62fec0b0531ea8d1e9891e829a0768c
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 23:21:38 2025 -0500
+
+    stdlib.h>
+
+commit 6373a7fb89399bf8f571524993f8bb924764de7d
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 23:18:32 2025 -0500
+
+    equals
+
+commit f5220f92ff7403108839aef0ebf3e2c2bd4f5514
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 23:10:47 2025 -0500
+
+    init?
+
+commit e05d2c1240ae55ece7e376f33cff728b6a815f8c
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 23:06:58 2025 -0500
+
+    destroy?
+
+commit e8aaf3a198b8a29dbe31464c5f6c74cae40432ae
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 22:53:48 2025 -0500
+
+    create works?
+
 commit b10266e5a6c6799edf329a70c2a19aa83d92c60f
 Author: Lucia Rae Vazquez <lrv8295@rit.edu>
 Date:   Sun Nov 2 22:08:39 2025 -0500

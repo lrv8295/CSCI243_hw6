@@ -86,10 +86,13 @@ bool mat_equals(const Matrix m1, const Matrix m2) {
 	return true;
 }
 
-//void mat_scalar_mult(Matrix mat, float data) {
-	//printf(mat);
-	//printf(data);
-//}
+void mat_scalar_mult(Matrix mat, float data) {
+	for(size_t i = 0; i < mat->rows; i++) {
+		for(size_t j = 0; j < mat->cols; j++) {
+			mat->data[i][j] = data;
+		}
+	}
+}
 
 //Matrix mat_mult(const Matrix m1, const Matrix m2) {
 	//printf(m1);
