@@ -60,11 +60,30 @@ Matrix mat_duplicate(const Matrix mat) {
 	return mat;
 }
 
-//bool mat_equals(const Matrix m1, const Matrix m2) {
-	//printf(m1);
-	//printf(m2);
-	//return false;
-//}
+bool mat_equals(const Matrix m1, const Matrix m2) {
+	if(m1 == NULL){
+		return false;
+	}
+	if(m2 == NULL){
+		return false;
+	}
+
+	if(m1->rows != m2->rows){
+		return false;
+	}
+	if(m1->cols != m2->cols){
+		return false;
+	}
+
+	for(size_t i = 0; i < m1->rows; i++){
+		for(size_t j = 0; j < m2-> cols; j++){
+			if(m1->data[i][j] != m2->data[i][j]){
+				return false;
+			}
+		}
+	}
+	return true;
+}
 
 //void mat_scalar_mult(Matrix mat, float data) {
 	//printf(mat);
