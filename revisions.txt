@@ -1,3 +1,21 @@
+commit 9b7c799cf08789ee12f09164e11959725d94655b
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 23:47:55 2025 -0500
+
+    get cell
+
+commit 1bc13123205e80a47c5c75afe3d0156b419ebf73
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 23:43:27 2025 -0500
+
+    mat max
+
+commit f359457f88382fa85118c624ca00acfad29db596
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 23:34:13 2025 -0500
+
+    scalar mult?
+
 commit 0564fac6424175b78bfff3dd588e8162755c97bd
 Author: Lucia Rae Vazquez <lrv8295@rit.edu>
 Date:   Sun Nov 2 23:30:38 2025 -0500

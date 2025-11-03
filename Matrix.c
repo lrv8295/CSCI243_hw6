@@ -139,11 +139,15 @@ Status mat_get_cell(const Matrix mat, float *data, size_t row, size_t col) {
 	return Success;
 }
 
-//Status mat_get_row (const Matrix mat, float data[]) {
-	//printf(mat);
-	//printf(data);
-	//return SUCCESS;
-//}
+Status mat_get_row (const Matrix mat, float data[]) {
+	if(mat == NULL || data == NULL) {
+		return BadRowNumber;
+	}
+	if (row < 1 || row > mat->rows) {
+		data[j] = mat->data[row-1][j]
+	}
+	return Success;
+}
 
 //Status mat_set_cell(Matrix mat, float data, size_t row, size_t col) {
 	//printf(mat);
