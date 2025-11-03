@@ -4,9 +4,40 @@
 #include "Matrix.h"
 
 Matrix mat_create(size_t rows, size_t cols) {
-	printf("%zu, %zu", rows, cols);
-	return NULL;
-}
+	Matrix mat = malloc(sizeof(MatrixStruct));
+	if (mat == NULL) {
+		return NULL;
+	}
+
+	mat->rows = rows;
+	mat->cols = cols;
+
+	mat->data = malloc(rows * sizeof(double *));
+	if (mat->data == NULL) {
+		free(mat);
+		return NULL;
+	}
+
+	for (size_t i = 0; i < rows; i++) {
+		mat->data[i] = calloc(cols, sizeof(double));
+		if (mat->data[i] == NULL) {
+	    		for (size_t j = 0; j < i; j++){
+	        		free(mat->data[j]);
+			}
+	    		free(mat->data);
+	    		free(mat);
+	    		return NULL;
+		}
+	}
+
+	if (rows == cols) {
+		for (size_t i = 0; i < rows; i++) {
+		    mat->data[i][i] = 1.0;
+		}
+	}
+
+	return mat;
+	}
 
 //void mat_destroy(Matrix mat) {
 	//printf(mat);

@@ -1,3 +1,111 @@
+commit b10266e5a6c6799edf329a70c2a19aa83d92c60f
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 22:08:39 2025 -0500
+
+    temp?'
+
+commit 5a3fdc1f48c2e9ab0591876e1c58a5e3e4cb8f86
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 22:05:06 2025 -0500
+
+    this work?
+
+commit 68e350ca1928cf2ea3ff35729f47bd9d1045841d
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 22:03:36 2025 -0500
+
+    please
+
+commit 32a732780c4f679fd5443a8b3eb5c2c045da660e
+Author: lrv8295 <143627722+lrv8295@users.noreply.github.com>
+Date:   Sun Nov 2 21:47:07 2025 -0500
+
+    Delete mtest7.c
+
+commit f7324ae7536746aea75d2f7d0be26a15e631fa8d
+Author: lrv8295 <143627722+lrv8295@users.noreply.github.com>
+Date:   Sun Nov 2 21:46:56 2025 -0500
+
+    Delete mtest6.c
+
+commit 7c39bb77790f1b7f4d59c9e7aef885598ab1189c
+Author: lrv8295 <143627722+lrv8295@users.noreply.github.com>
+Date:   Sun Nov 2 21:46:38 2025 -0500
+
+    Delete mtest5.c
+
+commit bf08ce3b7f9ca069598d5703dd6bf8e2eaa7c357
+Author: lrv8295 <143627722+lrv8295@users.noreply.github.com>
+Date:   Sun Nov 2 21:46:28 2025 -0500
+
+    Delete mtest4.c
+
+commit ab30f18a8b2419f060e1f3de819826321ee8166c
+Author: lrv8295 <143627722+lrv8295@users.noreply.github.com>
+Date:   Sun Nov 2 21:46:14 2025 -0500
+
+    Delete mtest3.c
+
+commit 8b18760800d67e5120f0950eb8928e720f266686
+Author: lrv8295 <143627722+lrv8295@users.noreply.github.com>
+Date:   Sun Nov 2 21:46:00 2025 -0500
+
+    Delete mtest2.c
+
+commit bab79e2848bfc90b600f7f896d775d60c8e78d1f
+Author: lrv8295 <143627722+lrv8295@users.noreply.github.com>
+Date:   Sun Nov 2 21:45:50 2025 -0500
+
+    Delete mtest1.c
+
+commit 0e4e3ba01961477f530eb3575fa7ded8423cfffb
+Author: lrv8295 <143627722+lrv8295@users.noreply.github.com>
+Date:   Sun Nov 2 21:45:22 2025 -0500
+
+    Delete header.mak
+
+commit 165ec61479f88c744a8d380093b4c9f11a172cf7
+Author: lrv8295 <143627722+lrv8295@users.noreply.github.com>
+Date:   Sun Nov 2 21:45:06 2025 -0500
+
+    Delete Matrix.h
+
+commit ebf2002f48afca6e255a0301259276d97f97d3a5
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 21:40:18 2025 -0500
+
+    comment /
+
+commit 756268435c7acdd63bb62cacf70c735986c2b9b3
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 21:38:10 2025 -0500
+
+    commented out
+
+commit dc64a0dfe72ea59ae0d0f1634c0b81572e45b66e
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 21:35:27 2025 -0500
+
+    wont compile placeholders
+
+commit 1c52c5695cffc7ac12429e5ae8e7374fceb7a3b5
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 21:31:43 2025 -0500
+
+    should compile?
+
+commit 9c7d640eee97800a3424988febea827a61c0fad2
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 21:21:14 2025 -0500
+
+    headers added to c
+
+commit d4d3b90a26f64455033ca0b1e1fc2b45d6b41ac3
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Sun Nov 2 21:05:45 2025 -0500
+
+    place holders
+
 commit bb3eae00ebe6f64592fa54dff79e1d3c63f5ba4d
 Author: Lucia Rae Vazquez <lrv8295@rit.edu>
 Date:   Sun Nov 2 20:58:32 2025 -0500
